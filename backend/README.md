@@ -22,3 +22,6 @@
 
 # Test file
 - https://jsonplaceholder.typicode.com/comments
+
+# How To
+    $ npm start
