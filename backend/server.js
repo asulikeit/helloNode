@@ -34,7 +34,7 @@ const main = async () => {
     }) 
     .then(() => console.log(`MongoDB connected ${util.getDate()} `)) 
     .catch((err) => console.error(err))
-  mongoose.set('useFindAndModify', false)
+  // mongoose.set('useFindAndModify', false)
 
   io.on('connection', async (socket) => {  
     console.log(`User connected :: ${util.getDate()} ID : ${socket.id}`)

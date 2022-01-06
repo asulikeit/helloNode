@@ -1,7 +1,9 @@
-# Reference
-- https://github.com/bjpublic/MEVN
+# Backend server
 
-# MONGODB
+## MONGODB
+    use log
+    db.log.insert({"temp": 0})
+    show dbs
     db.createUser({
         user: "dabin",
         pwd: "dabin12010",
@@ -15,13 +17,14 @@
             "SCRAM-SHA-1"
         ]
     })
+    db.getUsers()
 
-# NODEJS
+## NODEJS
     $ npm init
     $ npm i cors express mongoose morgan os-utils request socket.io
 
-# Test file
+## Test file
 - https://jsonplaceholder.typicode.com/comments
 
-# How To
+## How To
     $ npm start
